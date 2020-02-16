@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>React Hello World</title>
+</head>
+<body>
+  <div id="application-root"></div>
+      
+      <script
+        src="https://unpkg.com/react@16/umd/react.development.js">
+      </script>
+
+      <script
+        src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+      </script>
+      <script
+      src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+    <script type="text/babel">
+      ReactDOM.render(
+        <div>
+        <p>I'm an aspiring full stack web developer. I love cats, coding, and crocheting.</p>
+        <h2>Education:</h2>
+        <ul>(
+          <li>HS Diploma, Bruton High 2008</li>
+          <li>UCLA attendant 4 year Bachelor's Degree In Web design</li>
+      </ul>,
+      document.querySelector('#application-root')
+        );
+    function app() {
+
+    }
+
+    ReactDOM.render(
+    <div>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+      </ul>
+    </div>,
+    document.querySelector('#application-root')
+  );
+
+  ReactDOM.render(
+    <div>
+      <li>
+          <p>Yahoo, Web Developer 01/15-06/16</p>
+          <p>Modifying websites, made sure of clear navigation</p>
+        </li>
+    </div>,
+    document.querySelector('#application-root')
+  );
+
+    ReactDOM.render(
+    <div>
+     <li>
+          <p>Apple Corpation, Web Designer 12/18-09/19</p>
+          <p>Maintaining appearence of web pages, working with different content management</p>
+        </li>
+    </div>,
+    document.querySelector('#application-root')
+  );
+
+
+  ReactDOM.render(
+    <App className='my-class'>
+    <h1>Sally Student Resume</h1>
+  </App>,
+  document.querySelector('#application-root')
+);
+  </script>
+      </body>
+</html>
